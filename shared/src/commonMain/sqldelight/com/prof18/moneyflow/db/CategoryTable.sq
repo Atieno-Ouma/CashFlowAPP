@@ -1,0 +1,15 @@
+import com.prof18.moneyflow.data.db.model.TransactionType;
+
+CREATE TABLE CategoryTable (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    type TEXT AS TransactionType NOT NULL,
+    iconName TEXT NOT NULL
+);
+
+selectAll:
+SELECT * FROM CategoryTable;
+
+insertCategory:
+INSERT INTO CategoryTable (name, type, iconName)
+VALUES (?,?,?);

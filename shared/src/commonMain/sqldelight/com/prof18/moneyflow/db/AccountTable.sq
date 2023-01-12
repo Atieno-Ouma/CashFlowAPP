@@ -1,0 +1,20 @@
+import com.prof18.moneyflow.data.db.model.Currency;
+
+CREATE TABLE AccountTable (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    currency TEXT AS Currency NOT NULL,
+    amount REAL NOT NULL
+);
+
+getAccount:
+SELECT * FROM AccountTable;
+
+insertAccount:
+INSERT INTO AccountTable (name, currency, amount)
+VALUES (?,?,?);
+
+updateAmount:
+UPDATE AccountTable
+SET amount = amount + :newTransaction
+WHERE id = ?;
