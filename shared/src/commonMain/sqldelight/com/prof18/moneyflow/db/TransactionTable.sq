@@ -1,0 +1,41 @@
+import com.prof18.moneyflow.data.db.model.TransactionType;
+
+CREATE TABLE TransactionTable (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    dateMillis INTEGER NOT NULL,
+    amount REAL NOT NULL,
+    description TEXT,
+    categoryId INTEGER NOT NULL,
+    type TEXT AS TransactionType NOT NULL
+);
+
+selectLatestTransactions:
+SELECT T.id, T.dateMillis, T.amount, T.description, T.type, C.name AS categoryName, C.iconName
+FROM TransactionTable T
+INNER JOIN CategoryTable AS C
+ON T.categoryId = C.id
+ORDER BY T.dateMillis DESC
+LIMIT 10;
+
+selectTransactionsPaginated:
+SELECT T.id, T.dateMillis, T.amount, T.description, T.type, C.name AS categoryName, C.iconName
+FROM TransactionTable T
+INNER JOIN CategoryTable AS C
+ON T.categoryId = C.id
+ORDER BY T.dateMillis DESC
+LIMIT :pageSize
+OFFSET :pageNum;
+
+
+insertTransaction:
+INSERT INTO TransactionTable (dateMillis, amount, description, categoryId, type)
+VALUES (?,?,?,?,?);
+
+selectTransaction:
+SELECT *
+FROM TransactionTable
+WHERE id = :transactionId;
+
+deleteTransaction:
+DELETE FROM TransactionTable
+WHERE id = :transactionId;
