@@ -47,5 +47,4 @@ dropbox.app_key=<your-api-key>
 ```
 
 =======
-# CashFlowAPP
->>>>>>> 367fd005cb46609465a496c0b5d18e99cfed0440
+
