@@ -46,5 +46,4 @@ On Android, you only need the   key, which must be included in the `local.proper
 dropbox.app_key=<your-api-key>
 ```
 
-=======
 
