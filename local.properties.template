@@ -5,5 +5,5 @@
 # For customization when using a Version Control System, please read the
 # header note.
 #Wed Jan 11 11:53:25 EAT 2023
-sdk.dir=C\:\\Users\\atien\\AppData\\Local\\Android\\Sdk
-dropbox.app_key=sl.BWwJ_UwUNQWnRENbL-P2hJ36gSvLJV7tB9a0wpgrmYv-BXiKfkqJ4aYiITYJSJ6e8VlHGpZU1dyjaNygqQrkQ-Y9JO0aO6eJ2BX8QNdjrW9P_Rs8td0wCsAVwc_2aj0ofDFAN4o
+sdk.dir=<your_directory_path>
+dropbox.app_key=<your_api_Key>
