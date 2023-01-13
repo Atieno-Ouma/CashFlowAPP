@@ -1,6 +1,6 @@
 
 # CashFlow APP
-This is and Android and iOS app written in  Kotlin Multiplatform( Jetpack Compose and Swift UI) 
+This project consists of Android and iOS apps written in  Kotlin Multiplatform( Jetpack Compose and Swift UI) 
 to help you manage your finances and develop healthy financial habits that stick.
 
 The app is still work in progress  and the following are the features intended:
