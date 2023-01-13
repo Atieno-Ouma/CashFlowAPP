@@ -2,10 +2,10 @@
 //  Config.xcconfig
 //  MoneyFlow
 //
-//  Created by Marco Gomiero on 05.03.22.
+//  Created by Atieno Ouma on 05.12.22.
 //
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
-DROPBOX_URL_SCHEME=db-<your-api-key>
-DROPBOX_API_KEY=<your-api-key>
+DROPBOX_URL_SCHEME=db-sl.BWwJ_UwUNQWnRENbL-P2hJ36gSvLJV7tB9a0wpgrmYv-BXiKfkqJ4aYiITYJSJ6e8VlHGpZU1dyjaNygqQrkQ-Y9JO0aO6eJ2BX8QNdjrW9P_Rs8td0wCsAVwc_2aj0ofDFAN4o
+DROPBOX_API_KEY=sl.BWwJ_UwUNQWnRENbL-P2hJ36gSvLJV7tB9a0wpgrmYv-BXiKfkqJ4aYiITYJSJ6e8VlHGpZU1dyjaNygqQrkQ-Y9JO0aO6eJ2BX8QNdjrW9P_Rs8td0wCsAVwc_2aj0ofDFAN4o
