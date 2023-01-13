@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # CashFlow APP
 This is and Android and iOS app written in  Kotlin Multiplatform( Jetpack Compose and Swift UI) 
 to help you manage your finances and develop healthy financial habits that stick.
@@ -46,6 +46,4 @@ On Android, you only need the   key, which must be included in the `local.proper
 dropbox.app_key=<your-api-key>
 ```
 
-=======
-# CashFlowAPP
->>>>>>> 367fd005cb46609465a496c0b5d18e99cfed0440
+
